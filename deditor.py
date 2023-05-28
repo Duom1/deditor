@@ -25,7 +25,7 @@ class TextEditor:
         self.root.bind("<Control-q>", lambda x: self.root.quit())
         self.root.bind("<Control-o>", lambda x: self.open_file())
         self.root.bind("<Control-s>", lambda x: self.save_file())
-        self.root.bind("<Control-Shift-s>", lambda x: self.save_file_as())
+        self.root.bind("<Control-S>", lambda x: self.save_file_as())
         self.root.bind("<Control-n>", lambda x: self.new_file())
 
     def create_menu(self):

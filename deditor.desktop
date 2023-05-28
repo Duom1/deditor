@@ -1,0 +1,4 @@
+[Desktop Entry]
+Name=deditor
+Exec=/usr/local/bin/deditor
+Type=Application
